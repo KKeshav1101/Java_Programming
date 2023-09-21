@@ -1,0 +1,38 @@
+//interface//
+/*
+-platform independency is one of the unique features of java
+-multi-threading is another
+-handling exceptions is also available here
+-interface is neither a class nor a method
+-class vs interface: 
+	-everything is abstract in interface
+	-it is similar to class- with its own advantages and disadvantages
+	-class is used to create a concrete defn and interface is used to create an abstract defn
+-access specifiers : private(not allowed for interface),public,default,protected
+-access modifiers : static,final,abstract -can't use with interface because its always abstract
+-syntax:
+	<access_specifier_only> interface <interface_name>{
+		type <var1>=v1; //must be initialised and by default the variable is final//
+		type <var2>=v2; 
+		type <fun_name>(param list);  //abstract member by default
+		type <fun1_name>(param list); //abstract
+	}
+
+	class <classname> extends <classname1> implements <interface_name>,<interface_name>...{ //extends first and implements coming next is mandatory because class has more utilities//
+		public type <fun_name>(parameter list){
+			...defn...
+		}
+		public type <fun_name>(parameter list){   //all functions of interface must be defined here or else class becomes abstract and u will have to override by using inheritance.
+			...defn...
+		}
+	}//multiple implements allowed but multiple inheritance is not allowed.
+-interface can also be inherited as follows:
+	AS interface <interface2> extends <interface1>{
+		......functions......
+	}
+-keyword default(use than in switch case) :
+	to define a dummy method inside interface itself to avoid error when not defined in class. Thus this doesnt force the dev to use polymorphism or defn all methods, but only methods that are really required. This has been available since jdk 8.0.
+-The fun polymorphism done here isnt Overloading or overriding
+-interface allows both compile time and run time polymorphism
+-NOTE: STATIC AND FINAL COMBINATION IS ALLOWED BUT FINAL AND ABSTRACT/STATIC AND ABSTRACT COMBINATION IS ILLEGAL
+*/
