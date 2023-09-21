@@ -1,0 +1,25 @@
+//Inheritance//
+/* Concept of reusability in Java
+Access Specifier Table
+					private	     *		Default		*	protected	*	public
+----------------------------------------------------------------------------------------------------------------------------
+Inside same class            	        Yes          *           Yes            *         Yes		*        Yes								
+sub class in same package               No           *           Yes            *         Yes           *        Yes
+non sub-class in same package           No           *           Yes            *         Yes           *        Yes
+sub-class in different package          No           *           No             *         Yes           *        Yes
+non sub-class in a different package    No           *           No             *         No            *        Yes
+----------------------------------------------------------------------------------------------------------------------------
+Syntax
+class <base>{
+	type <v1>;
+	type <v2>;
+
+	type fun1(){
+	}
+}
+class <derived> extends <base>{   //can only have one element after extends keyword, no commas//
+	type <v3>;
+	type fun2(){
+	}
+}
+*/ 

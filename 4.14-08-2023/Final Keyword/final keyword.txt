@@ -1,0 +1,17 @@
+/*final keyword
+no more change
+final data member-final member function and final class
+if u want to fix a constant for the entire class- then u use this- once initialised cant change
+if the function is a final function - the defn can't be further changed. So basically overriding isnt possible
+if the class is a final class- inheritance itself is denied (cant use extends keyword on it)
+abstract in c++ is similar to interface- where objects arent created for the class-it is used only for inheritance*/
+//sample//
+class Test{
+	final double pi=3.14;
+	
+}
+//final class A{
+//<Code>
+//}
+//class B extends A is thus impossible
+//but final class A extends B is possible obviously

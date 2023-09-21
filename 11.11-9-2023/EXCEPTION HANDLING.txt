@@ -1,0 +1,29 @@
+//EXCEPTION HANDLING//
+//==================//
+/*Java is known for its robustness
+-two types of error- compile time and runtime error
+-java runtime environment is called jvm-executes byde code to executable code
+-jit is just in time compiler
+-Compile time error: Errors in syntax, illegal use of keywords
+-Run time error: Also known as exceptions.
+-exceptions can also be custom made (like in cases where balance can't be negative)
+-in java,jvm raises the exception
+-KEYWORDS : try, catch, finally, throw, throws
+-java.lang.Throwable is the base class entire exception handling system
+-Throwable is inherited in two different classes
+	1.Exception
+	2.Error
+-The reason for two different classes : Exception handling can help avoid abrupt termination of the program.
+					It is not possible to continue the program for some exceptions tho and they are called errors. Errors are also exception in that sense. Error is just an extreme case of an exception
+- UNDER Exception
+	1.RuntimeException
+		1.ArithmeticException
+		2.ArrayIndexOutOfBoundsException
+		3.NullPointerException
+		4.IOException
+		5.ClassCastException
+		-HERE SOME ARE CHECKED(IO,CLASSCAST)-have to notify jvm to handle these exceptions- AND REST ARE UNCHECKED(Arithmetic)
+	2.NegativeBalanceException(is a custom exception, must inherit Exception class),NegativeMarkException etc etc.)
+*/
+
+		

@@ -1,0 +1,16 @@
+//custom handling exception using try and catch
+class Test{
+	public static void main(String args[]){
+		int a=0;
+		int b=45/a;
+		Thread.sleep(10);
+		System.out.println(""+b);
+	}	
+}
+try{
+	//BLOCK OF STATEMENTS
+	
+}
+catch{
+	//Exception handler	
+}

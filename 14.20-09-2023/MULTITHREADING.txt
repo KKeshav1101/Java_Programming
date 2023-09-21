@@ -1,0 +1,20 @@
+/*MULTITHREADING
+Thread- execution point
+multithreading- helps have several execution points running parallelly, conccurent execution
+java.lang.Thread and java.lang.Runnable are two classes we will be using
+the thread in execution is known as running state
+runnable state means the thread is ready for execution-thus the difference b/w running and runnable
+New ------start()-----> Runnable -----run()-----> Running -----sleep(long int //in ms//)---> Blocked //sleep is timed
+							       suspend()--------------->Blocked	//resumes based on event
+							       wait()------------------>Blocked //also different from sleep but is timed
+from any state -----stop()---->Dead
+
+resume()-suspend() complimentary pair for sync
+wait()-notify() for communication
+								
+producer is the part of the code thats responsible for filling the data
+consumer takes the data- thus the dependency b/w producer and consumer
+if there is a common resource that has to be accessed by more than one thread- thread synchronisation is necessary
+communication between the threads is diff tho and its called messaging
+
+*/

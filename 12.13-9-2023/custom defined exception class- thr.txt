@@ -1,0 +1,9 @@
+//custom defined exception class- thrown manually using throw with condition//
+class InvalidMakException extends Exception{
+	InvalidMarkException(String msg){
+		super(msg);
+	}
+	public String toString(){
+		return "invalid mark.."+msg;
+	}
+}	

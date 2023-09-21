@@ -1,0 +1,30 @@
+Revision for CIA 1
+
+Give priority to 
+I	-class and objects- explore this keyword-ref to the current object 
+I	-constructors
+I		-no arg
+I		-parametrized
+I		-Copy
+I		-overloaded
+I	-static -block
+I		-data member
+I		-member function
+I	-inheritance
+I		-single
+I		-multilevel
+I		-hierarchial
+I		-hybrid
+I	-base and derived class clarity
+I	-super  -super() - to get base class constructor that is overriden
+I		-super mem1 - to get base class data member
+I		-super.fun1()- to get base class member function
+I	-overriding (dynamic binding)
+I	-Final keyword
+I	-abstract keyword(overriding is mandatory if mem fun is given abstract keyword)
+I	-nested class(static) and inner class(non static nested class)
+I	-type conversions- widening allowed narrowing not allowed
+I	-operator precedence
+I	-control Structures(if,else if,else,for,while,for each,break,continue,return,System.exit(0))
+I	-First chapter about unique features of java(robustness/error free code,multithreading,purely object oriented,platform independency,added security,remaining being available in cpp also)
+\/	

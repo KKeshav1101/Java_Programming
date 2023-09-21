@@ -1,0 +1,12 @@
+/*explore the following scenario
+Create a class called student with appropriate data members and member functions,Constructors.
+Create a class called faculty with appropriate data members and member functions,Constructors.
+Create a class called person with appropriate data members. 
+Implement the following:-
+1.Overloaded Constructor
+2.Hierarchial Inheritance
+3.Dynamic method dispatch to find out outstanding performer- with respect to faculty and student both being different.for faculty, use number of papers,publications or patents.for student, cgpa, number of projects etc.
+4.Explore static,final and abstract. (static- for stuff like total number of students, or use static inner class for marks.Kind of obvious what final and abstract will be used for)*/
+
+
+

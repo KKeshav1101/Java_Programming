@@ -1,0 +1,12 @@
+//control structures
+b2:{ //scope start b2 compound block
+	int c; //accessible inside b1 and b2
+	b1:{
+		int a;	//dynamic//accessible inside b1 only//
+		a=a+10;
+		S.o.p(a);
+	}scope end compound block b1
+	c=c+10;
+	S.o.p(c);
+
+} //scope end compound block b2
