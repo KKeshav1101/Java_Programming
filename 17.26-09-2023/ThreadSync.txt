@@ -1,0 +1,6 @@
+Thread Synchronisation
+Two threads in Synchronisation trying to access the same resource. 
+Thus the usage of resource alone should be in sync. 
+When one thread is trying to access the resource, the other should be in idle state.
+Synchronised method,synchronised block both are needed in different perspectives
+

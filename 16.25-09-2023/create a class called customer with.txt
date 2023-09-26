@@ -1,0 +1,25 @@
+//create a class called customer with cusid,cust name,account number,balance
+//use parametrized constructor to initialise the data member, overriden toString func to display details
+//balance+=amount for deposit
+//-=amount for withdrawal
+//in main, 5 different customer object
+//deposit and withdrawal should happen parallelly for all customers
+class Test{
+void f1(){
+	new Thread(){
+		public void run(){
+			
+		}.start()
+	}
+}
+void f2(){
+
+}
+}
+class TestDemo{
+	public static void main(String args[]){
+		Test t=new test();
+		t.f1();
+		t.f2();
+	} 
+}
