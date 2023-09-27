@@ -1,0 +1,10 @@
+Interthread communication
+1.wait()
+2.notfy()
+3.notifyAll()
+4.-final
+deadlock- when two processes are trying to access the same resource 
+        - first process might wait for the second and the second might wait for the first
+        - this will result in neither going forward and thus a deadlock.
+        - so dont use wait without notify and vice versa
+
