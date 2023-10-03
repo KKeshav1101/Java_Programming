@@ -1,0 +1,8 @@
+suspend().....resume()....isAlive()...join()...setPriority()...getPriority()...start()..stop()
+MAX_PRIORITY (10)-final static
+MIN_PRIORITY (2)
+NORM_PRIORITY (5)
+Thread.setPriority(Thread.MAX_PRIORITY) -> ASSIGNS MAX VALUE TO A Thread
+if u want faster execution of one thread, assign max priority for one thread and min for the other
+join- once the thread finishes execution, the current execution point is joint with the main thread
+
