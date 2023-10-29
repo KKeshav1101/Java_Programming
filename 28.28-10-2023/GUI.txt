@@ -1,0 +1,33 @@
+GUI-Graphic User Interface
+import java.awt.*;
+import java.awt.event.*;
+AWT is abstract windowing toolkit
+Swing
+import javax.swing.*;
+EVENT DRIVEN PROGRAMMING
+--------------------------------
+DELEGATION EVEN MODEL
+	#Event source
+		-raises an event- need not be a visible and tangible element in gui
+		-ex:button, timer, frame, Mouse
+	#Event
+		-ActionEvent=>raised when mouse clicks on button
+			MouseEvent
+			MouseMotionEvent
+	#Listener(interface)
+		-Responsible for handling the event- (it is delegated with the event handling by event source)
+		-use ActionListener to handle actions related to the button
+		-actionPerformed()-must be overriden
+		ex:
+			MouseListener
+				-mousePressed()
+				-mouseReleased()
+				-mouseClicked()
+			MouseMotionListener
+				-mouseMoved()
+				-moseDragged()
+
+Register Listener to the event:
+		addTypeListener()-to register listener in event source
+		removeTypeListener()-to unregister listener in event source
+

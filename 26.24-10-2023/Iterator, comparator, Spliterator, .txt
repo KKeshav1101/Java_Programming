@@ -1,0 +1,31 @@
+//Iterator, comparator, Spliterator, ListIterator.
+import java.util.*;
+class Test{
+	public static void main(String args[]){
+		ArrayList<String> al=new ArrayList<String>();
+		al.add("CSE");
+		al.add("ICT");
+		al.add("IT");
+		System.out.println(al);
+		Iterator<String> itr=al.iterator();
+		while(itr.hasNext())
+			System.out.println(itr.next());
+		
+	}
+}
+
+
+/*
+Iterator
+hasNext() -bool
+next()
+only for ListIterator tho:-
+hasPrevious() - bool
+previous()
+
+Comparator is compatible only with treeset and treemap- that is the collection has to be sorted to be compatible with comparator
+used especially when TreeSet<Student> is the scenario where Student is some user defined class.
+compare,equal...abstract function.
+reversed()
+thenComparing()- for inner sorting 
+*/

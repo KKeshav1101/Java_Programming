@@ -1,0 +1,11 @@
+Multithreading- Synchronized keyword- used to access common resource by multiple threads....we can use volatile keyword before creating object 
+Io-Serializable....transient int x; means x will never be stored in permanent memory
+google about both just in case to be sure
+package
+interface
+dynamic method dispatch using interface
+exception- creating custom exception
+Threading- all methods- interthread comm
+String- remember the inbuilt functions- helps when uk java naming convention
+IO - serializable- object,file,buffered,reader-writer,byte oriented stream, char oriented differences
+ArrayList-add fn, addon fn remove,for each, size- ArrayList with built in String/ user defined datatype

@@ -1,0 +1,4 @@
+HASHMAP AND TREEMAP
+HashMap<key,value> and TreeMap<key,value>
+fundamental for big data programming
+tree map allows sorted usage and hashmap allows efficient retreival of data
