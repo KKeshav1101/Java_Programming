@@ -1,0 +1,17 @@
+//MouseEvent, MouseListener, MouseMotionListener, Color, Random
+//ms pAINT LIKE SOFTWARE
+//int getX()-current x pos of mousepointer;int getY()-current y coordinate if mousepointer;Point getPoint()-x,y coordinates of mousepointer
+//getButton-LEFT or RIGHT
+//getClickCount()//number of times the button is pressed
+//all these methods are final and static
+/*
+MouseListener
+mouseClicked() mousePressed() mouseReleased() mouseEntered() mouseExited()
+MouseMotionListener
+mouseDragged() mouseMoved()
+MouseAdapter
+MouseMotionAdapter
+Color, Graphics
+Color(int)...16 colors.
+Color(int,int)..
+*/
