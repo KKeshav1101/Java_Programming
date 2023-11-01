@@ -48,7 +48,4 @@ public class LoginScreen {
 	public static void main(String args[]){
 		new LoginScreen();
 	}   	
-	
-	// Inside the ActionListener for the login button
-	
 }
