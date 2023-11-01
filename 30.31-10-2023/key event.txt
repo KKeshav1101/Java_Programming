@@ -1,0 +1,21 @@
+//key event,Adjustment event and item event
+/*
+Key event
+KeyListener
+keyTyped()
+keyPressed()
+keyReleased()
+
+Scrollbar
+Scrollbar(int int int int int)
+int getValue()
+AjustmentEvent
+int getValue()
+AdjustmentListener
+
+ItemEvent
+CheckBox,list,choice
+ItemEvent
+ItemListener
+ItemStateChanged()
+*/

@@ -1,0 +1,6 @@
+//Swing
+/*
+import javax.Swing.*;
+Model View Component develepment based- look and feel...??
+helps with platform independency of the program
+*/
