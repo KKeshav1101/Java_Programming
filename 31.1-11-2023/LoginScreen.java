@@ -36,18 +36,12 @@ public class LoginScreen {
         	frame.add(panel);
 
         	frame.setVisible(true);
-
-      		loginButton.addActionListener(new ActionListener(){
-      			public void actionPerformed(ActionEvent e){
-      				String username = userTextField.getText();
-      				String password = new String(passField.getPassword());
-      			}
-		});
+		
 		loginButton.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e){
     				String username = userTextField.getText(); // Get the entered username
     				String password = new String(passField.getPassword()); // Get the entered password
-				System.out.println("Recorded entry for "+username+" with password "+ password);
+				System.out.println("Recorded entry for "+username+" with password "+ password); //can also be used to write onto a file for realtime purposes
 			}
         	});
 	}
