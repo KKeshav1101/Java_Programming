@@ -1,23 +1,17 @@
+import java.util.ArrayList;
 class AirlinesManagement{
-	Airlines[] list;
-	int size;
-	AirlinesManagement(){
-		size=0;
-	}
-	AirlinesManagement(int size){
-		this.size=size;
-		list=new Airlines[size];
-	}
-	void addDetail(int number,Airlines A){
-		list[number-1]=A;
+	ArrayList<Airlines> list=new ArrayList<Airlines>();
+	void addDetail(Airlines A){
+		
+		list.add(A);
 		System.out.println("Successfully added detail");
 	}
-	boolean searchPassenger(int pid){
+	boolean searchPassenger(String pid){
 		boolean flag;
 		flag=false;
 		try{
 			for(Airlines i:list){
-				if(i.P_id==pid)
+				if(i.P_id.equals(pid))
 					flag=true;
 			}
 			if(flag==false){
@@ -29,9 +23,11 @@ class AirlinesManagement{
 		}
 		return flag;
 	}
-	void displayPassenger(int number){
-		if(number<=size){
-			System.out.println("Details\n"+list[number-1]);
+	Airlines displayPassenger(String id){
+		for(Airlines i:list){
+			if(i.P_id.equals(id))
+				return i;
 		}
+		return null;
 	}
 }

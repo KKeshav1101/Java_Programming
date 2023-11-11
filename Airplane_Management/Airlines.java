@@ -1,17 +1,17 @@
 class Airlines{
 	String Name;
-	int P_id;
-	int Fno;
+	String P_id;
+	String Fno;
 	String Src;
 	String Dest;
 	Airlines(){
 		Name="\0";
-		P_id=0;
-		Fno=0;
+		P_id="\0";
+		Fno="\0";
 		String Src="\0";
 		String Dest="\0";
 	}
-	Airlines(String Name,int P_id,int Fno,String Src,String Dest){
+	Airlines(String Name,String P_id,String Fno,String Src,String Dest){
 		this.Name=Name;
 		this.P_id=P_id;
 		this.Fno=Fno;
