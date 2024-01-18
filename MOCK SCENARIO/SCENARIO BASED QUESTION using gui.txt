@@ -1,0 +1,10 @@
+//SCENARIO BASED QUESTION using gui
+//employee id, name, basicpay double
+//get from user, add to arraylist
+//implement add, delete,update and search
+//in table view, compute hra as well, 10% hra, 50% da 2%pf
+//gross pay=basicpay+hra+da
+//net pay=grosspay-pf
+
+
+
